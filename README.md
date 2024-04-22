@@ -1,0 +1,5 @@
+a. What is AMQP?
+   AMQP adalah singkatan dari _Advaced Messaging Queuing Protocol_ yang merupakan salah satu standar _messaging protocol_. Standar ini digunakan untuk komunikasi antara dua sistem yang dilakukan dengan pengiriman dan penerimaan data.
+
+b. what it means? guest:guest@localhost:5672, what is the first quest, and what is the second guest, and what is localhost:5672 is for?
+   `guest:guest@localhost:5672` merupakan sebuah URI yang digunakan untuk messaging dan networking dalam suatu sistem. Bagian `guest:guest`, merepresentasikan username dan password yang digunakan untuk autentikasi. `guest` di sebelah kiri tanda `:` merupakan username, dan `guest` di sebelah kanan merupakan password. Bagian `localhost:5672` merepresentasikan IP dan port yang digunakan untuk membuat koneksi. `localhost` merupakan IP yang me-refer ke mesin yang mengirimkan request itu sendiri, sedangkan `5672` merupakan nomor port yang digunakan.
